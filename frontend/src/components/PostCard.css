@@ -1,0 +1,66 @@
+.post-card {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-image {
+  width: 100%;
+  border-bottom: 1px solid #dbdbdb;
+}
+.post-info {
+  padding: 10px;
+}
+.post-user {
+  font-weight: bold;
+}
+.post-caption {
+  margin: 5px 0;
+}
+.post-tags {
+  color: #00376b;
+}
+.post-likes {
+  color: #ed4956;
+  font-weight: bold;
+}
+.post-votes {
+  margin: 10px 0;
+}
+.vote-count {
+  color: #2e7d32; /* Green color for votes */
+  font-weight: bold;
+  margin-right: 10px;
+}
+.vote-button {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.vote-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.edit-form {
+  margin: 10px 0;
+}
+.edit-form textarea,
+.edit-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.post-actions {
+  margin-top: 10px;
+}
+.delete-confirm {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+} 

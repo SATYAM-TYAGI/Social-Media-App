@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.trending-tags {
+  min-width: 200px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  padding: 16px;
+  margin-right: 20px;
+  height: fit-content;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.explore-page {
+  flex: 1;
+}
+
+.explore-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.tag-input {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.auth-form {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.profile-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notifications {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  padding: 16px;
+  margin-left: 20px;
+  min-width: 250px;
+}
+.notifications ul {
+  list-style: none;
+  padding: 0;
+}
+.notifications li {
+  margin-bottom: 10px;
+}
