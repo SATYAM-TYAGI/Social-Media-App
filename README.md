@@ -153,21 +153,22 @@ POST /api/notifications/mark-all-read
 
 ## 📁 Directory Structure
 MERN-SOCIAL-VOTE-APP/
-├── backend/
-│ ├── controllers/
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ ├── uploads/
-│ └── server.js
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── context/
-│ │ ├── pages/
-│ │ └── App.js
-│ └── package.json
+
+├── backend/  
+│ ├── controllers/  
+│ ├── middleware/  
+│ ├── models/  
+│ ├── routes/  
+│ ├── uploads/  
+│ └── server.js  
+├── frontend/  
+│ ├── public/  
+│ ├── src/  
+│ │ ├── components/  
+│ │ ├── context/  
+│ │ ├── pages/  
+│ │ └── App.js  
+│ └── package.json  
 └── README.md
 
 
